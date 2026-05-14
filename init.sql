@@ -1,9 +1,6 @@
--- ─────────────────────────────────────────────────────────────
--- VisitNest Database – MySQL Initialization Script
--- This file runs automatically when the MySQL container
--- starts for the first time via Docker Compose.
+
 -- Database: visit_nest_db
--- ─────────────────────────────────────────────────────────────
+
 
 CREATE DATABASE IF NOT EXISTS visit_nest_db;
 USE visit_nest_db;
