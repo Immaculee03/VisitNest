@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────────────────────
+# VisitNest – .gitignore
+# Files and folders listed here are NOT tracked by Git
+# and will NOT be uploaded to GitHub
+# ─────────────────────────────────────────────────────────────
+
+# ── Dependencies ──────────────────────────────
+# Installed by npm install — no need to upload
+node_modules/
+
+# ── Environment Variables ─────────────────────
+# Contains passwords and secret keys — NEVER upload
+.env
+
+# ── Build Output ──────────────────────────────
+build/
+dist/
+
+# ── Log Files ─────────────────────────────────
+*.log
+npm-debug.log*
+
+# ── OS Files ──────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editor Files ──────────────────────────────
+.vscode/
+.idea/
