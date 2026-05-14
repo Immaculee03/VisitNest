@@ -7,13 +7,13 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 VisitNest is a digital visitor management system designed to replace the manual notebook-based visitor logging system at GreenView Girls Hostel. The system allows security personnel to register visitors electronically, track entry and exit times, search visitor records, and generate management reports.
 
 ---
 
-## 🧩 System Architecture
+##  System Architecture
 
 The application is divided into three components:
 
@@ -25,7 +25,7 @@ The application is divided into three components:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 visitnest/
@@ -49,7 +49,7 @@ visitnest/
 
 ---
 
-## 🚀 How to Run with Docker
+##  How to Run with Docker
 
 ### Prerequisites
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed
@@ -84,7 +84,7 @@ docker-compose down
 
 ---
 
-## 🖥️ How to Run Without Docker
+##  How to Run Without Docker
 
 ### Prerequisites
 - Node.js v18+
@@ -114,7 +114,7 @@ npm start
 
 ---
 
-## 🔐 Demo Login Credentials
+##  Demo Login Credentials
 
 | Role | Username | Password |
 |------|----------|----------|
@@ -135,7 +135,7 @@ npm start
 
 ---
 
-## 🎨 Design Patterns Used
+##  Design Patterns Used
 
 | Pattern | Type | Where Applied |
 |---------|------|--------------|
@@ -145,7 +145,7 @@ npm start
 
 ---
 
-## 🐳 Docker Configuration
+## Docker Configuration
 
 - **Dockerfile** — Multi-stage build for the Node.js backend. Uses `node:18-alpine` to minimize image size.
 - **docker-compose.yml** — Orchestrates frontend, backend, and MySQL database containers on a shared private network (`visitnest_network`).
@@ -154,7 +154,7 @@ npm start
 
 ---
 
-## 📋 Git Branching Strategy
+##  Git Branching Strategy
 
 | Branch | Purpose |
 |--------|---------|
